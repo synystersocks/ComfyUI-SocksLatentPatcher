@@ -15,7 +15,7 @@ The workflow allows for multiple conditionals, and has a bool at the end of each
 
 <img width="1897" height="609" alt="Screenshot 2025-10-05 035357" src="https://github.com/user-attachments/assets/318320a4-ce41-4bc9-988d-ea86ebd2088b" />
 
-The node take the output and patches it over the next ksampler input- 
+The node takes the output from the previous ksampler and patches it over the next ksampler input- 
 
 <img width="1414" height="917" alt="Screenshot 2025-10-05 045029" src="https://github.com/user-attachments/assets/da04854b-3e14-4c31-a3b3-356b350e22ee" />
 
