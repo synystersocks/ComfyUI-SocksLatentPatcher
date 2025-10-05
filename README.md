@@ -11,6 +11,10 @@ the issue is not the quality loss of the vae, yet the decompression and recompre
 This is an Experimental node and is still a wip, currently runs on 8gb vram using gguf models.
 the above video took 2 hours and 30 mins on an rtx 3060 ti 8gb.
 
-the workflow allows for multiple conditionals, and has a bool at the end of each generation allowing testing before continuing to generate the next segment
+The workflow allows for multiple conditionals, and has a bool at the end of each generation allowing testing before continuing to generate the next segment-
 
 <img width="1897" height="609" alt="Screenshot 2025-10-05 035357" src="https://github.com/user-attachments/assets/318320a4-ce41-4bc9-988d-ea86ebd2088b" />
+
+The results are compiled together at the end of all generations-
+
+<img width="834" height="741" alt="Screenshot 2025-10-05 035744" src="https://github.com/user-attachments/assets/ec28d151-40a2-4bd0-8b0e-89d2b8298765" />
