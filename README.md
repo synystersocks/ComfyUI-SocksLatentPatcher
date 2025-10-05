@@ -15,6 +15,10 @@ The workflow allows for multiple conditionals, and has a bool at the end of each
 
 <img width="1897" height="609" alt="Screenshot 2025-10-05 035357" src="https://github.com/user-attachments/assets/318320a4-ce41-4bc9-988d-ea86ebd2088b" />
 
+The node take the output and patches it over the next ksampler input- 
+
+<img width="1414" height="917" alt="Screenshot 2025-10-05 045029" src="https://github.com/user-attachments/assets/da04854b-3e14-4c31-a3b3-356b350e22ee" />
+
 The results are compiled together at the end of all generations-
 
 <img width="834" height="741" alt="Screenshot 2025-10-05 035744" src="https://github.com/user-attachments/assets/ec28d151-40a2-4bd0-8b0e-89d2b8298765" />
