@@ -1,6 +1,20 @@
 # ComfyUI-SocksLatentPatcher
 This node circumnavigates the loss of detail, saturation/desaturation for infinite length video generation, the node bypasses the vae decode and directly patches the latent tensor. experimental covering i2v and vace extend (should work on all models apart from ti2v5b "wan2.1&amp;2.2Hs/Ls, hunyuan, ltxv and skyreel are compatable")
 
+UPDATE - 10/10/25
+
+Added a refined reference injection workflow,
+
+below is a raw output using this node and the new workflow from a single image of a car "no upscaling, interpolation or fps correction" - 
+
+https://github.com/user-attachments/assets/d4759379-3272-4ad1-8049-75955680b88b
+
+below is an example screenshot of where this node should be attached between the last ksampler of the previous generation and the first ksampler of the next generation.
+<img width="789" height="656" alt="Screenshot 2025-10-10 062041" src="https://github.com/user-attachments/assets/921b91fa-50b4-418c-8003-17b27785ae93" />
+
+the new addition to the workflow is the addition of referance information that can be pulled from a previous generation to correct for abnomalities, the use of a mask is also required as it helps the model to understand the intent of the process.
+-----------------
+
 Below is an example of the vace8frame patcher, patching from the i2v into vace, using the original ref and last 8 pixel-space frames "for the encode process" for the vace conditionals, then overwriting the vace reference dim with the last frame from the previous generation while patching the last 8 frames in latent space - 
 
 
