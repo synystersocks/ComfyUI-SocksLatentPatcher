@@ -12,7 +12,14 @@ https://github.com/user-attachments/assets/d4759379-3272-4ad1-8049-75955680b88b
 below is an example screenshot of where this node should be attached between the last ksampler of the previous generation and the first ksampler of the next generation.
 <img width="789" height="656" alt="Screenshot 2025-10-10 062041" src="https://github.com/user-attachments/assets/921b91fa-50b4-418c-8003-17b27785ae93" />
 
-the new addition to the workflow is the addition of referance information that can be pulled from a previous generation to correct for abnomalities, the use of a mask is also required as it helps the model to understand the intent of the process.
+the new addition to the workflow is the addition of referance information that can be pulled from a previous generation to correct for abnomalities, the use of a mask for the control video/frames is also required as it helps the model to understand the intent of the process.
+
+below is an example of pulling frames from a original generation from vae decode "this is for the conditionals (textEmbeds) only, they are overwrote in the latent by my node (ele0=previousFrame)"
+<img width="1034" height="442" alt="Screenshot 2025-10-10 064845" src="https://github.com/user-attachments/assets/b94399ff-a73c-4566-8991-f4e108858432" />
+
+Below shows how the reference is injected for the conds, and overwrote by my node.
+<img width="875" height="574" alt="Screenshot 2025-10-10 064940" src="https://github.com/user-attachments/assets/45d38db0-76bb-4184-8024-d03053c25b8d" />
+
 
 -----------------
 
